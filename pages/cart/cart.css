@@ -1,0 +1,100 @@
+:root{
+    --secondary-color: black;
+    --gray: gray;
+}
+.card-and-price-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+}
+.cart-card {
+  display: flex;
+  border: 1px solid var(--secondary-color);
+  width: 26rem;
+  text-transform: capitalize;
+  box-shadow: 5px 5px var(--gray);
+}
+.cart-products-heading{
+    text-align: center;
+    margin-top: 1rem;
+}
+.cart-card-image {
+  width: 13rem;
+}
+.cart-card-details {
+  padding: 1rem;
+}
+.cart-card-details-head {
+  font-weight: light;
+  margin-bottom: 1rem;
+}
+.cart-card-details-price {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.cart-card-details-price-discount,.price-details-heading,.price {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.cart-card-details-price-real {
+  margin-left: 1rem;
+  text-decoration: line-through;
+}
+.cart-card-offer,
+.cart-card-details-price-real {
+  color: var(--gray);
+}
+.cart-card-quantity {
+  margin: 1rem 0;
+}
+.cart-card-quantity-head,.cart-card-quantity-minus,.cart-card-quantity-value,.cart-card-quantity-plus {
+  display: inline;
+}
+.cart-card-quantity-minus,.cart-card-quantity-plus,.cart-card-quantity-value {
+  border: 1px solid var(--secondary-color);
+  padding: 0 5px;
+}
+.cart-card-quantity-minus,.cart-card-quantity-plus {
+  border-radius: 1rem;
+}
+.cart-card-buttons-remove {
+  background-color: var(--gray);
+}
+.cart-card-buttons-move,.cart-card-buttons-remove,.price-details-btn {
+  padding: 3px 7px;
+  margin: 6px 0;
+  text-transform: capitalize;
+  border: none;
+  width: 9rem;
+  cursor: pointer;
+}
+.price-details {
+  border: 1px solid var(--secondary-color);
+  text-transform: capitalize;
+  box-shadow: 5px 5px var(--gray);
+  width: 15rem;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.price-details-heading,.price-details-amount {
+  border-bottom: 1px solid var(--secondary-color);
+}
+.price-details-desc {
+  display: flex;
+  justify-content: space-between;
+}
+.price-details-desc-desc,.price-details-desc-price {
+  display: inline;
+  margin: 5px 0;
+}
+.price-details-amount {
+  border-top: 1px solid var(--secondary-color);
+}
+.price-details-saving,.price-details-amount {
+  padding: 6px 0;
+}
+.price-details-btn {
+  width: 13rem;
+  background-color: var(--gray);
+}
