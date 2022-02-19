@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="product listing page" />
+    <meta name="author" content="aryan sharma" />
+    <link rel="stylesheet" href="products.css" />
+    <link rel="stylesheet" href="https://gothamui.netlify.app/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0dbbe70cac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Products</title>
+  </head>
+
+  <body>
+    <nav class="nav-menu">
+      <h1 class="nav-menu-logo">
+        <a href="#" class="text-decorations text-white">gothammerce</a>
+      </h1>
+      <div class="search">
+        <i class="fas fa-search search-background"></i>
+        <input type="text" placeholder="search products" class="search-bar" />
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="menu-items">
+            <a href="#" class="text-decorations text-white">sign up</a>
+          </li>
+          <li class="menu-items">
+            <a href="#" class="text-decorations text-white">login</a>
+          </li>
+          <li class="menu-items fas-icons">
+            <a href="#" class="text-decorations text-white">
+              <i class="fas fa-heart"></i>
+            </a>
+            <div class="count-items">0</div>
+          </li>
+          <li class="menu-items fas-icons">
+            <a href="#" class="text-decorations text-white"
+              ><i class="fas fa-shopping-cart"></i
+            ></a>
+            <div class="count-items">0</div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="main-section">
+      <aside class="filter-section">
+        <div class="filter-and-clear-section">
+          <div class="filter">filter</div>
+          <button class="filter-btn">clear</button>
+        </div>
+        <div class="slider-section">
+            <div class="slider-section-heading">price</div>
+          <input type="range" min="2000" max="6000" step="2000" list="steplist" class="slider"/>
+          <datalist class="steps-list">
+            <option value="2000"class='slider-values' label="2000">2000</option>
+            <option value="4000" class='slider-values' label="4000">4000</option>
+            <option value="6000" class='slider-values' label="6000">6000</option>
+            
+          </datalist>
+        </div>
+        <div class="rating-section">
+          <div class="rating-section-heading">rating</div>
+          <label for="rating1">
+            <input type="radio" id="rating1" name="radio" />
+            4 star & above
+          </label>
+          <label for="rating2">
+            <input type="radio" id="rating2" name="radio" />
+            3 star & above
+          </label>
+          <label for="rating3">
+            <input type="radio" id="rating3" name="radio" />
+            2 star & above
+          </label>
+          <label for="rating4">
+            <input type="radio" id="rating4" name="radio" />
+            1 star & above
+          </label>
+        </div>
+
+        <div class="category-section">
+          <div class="category-section-heading">Category</div>
+          <label for="category1">
+            <input type="checkbox" id="category1" name="category1" />
+            batman cap
+          </label>
+          <label for="category2">
+            <input type="checkbox" id="category2" name="category2" />
+            batman mask
+          </label>
+          <label for="category3">
+            <input type="checkbox" id="category3" name="category3" />
+            batman toy car
+          </label>
+          <label for="category4">
+            <input type="checkbox" id="category4" name="category4" />
+            batman toy bike
+          </label>
+          <label for="category5">
+            <input type="checkbox" id="category5" name="category5" />
+            batman toy
+          </label>
+        </div>
+        <div class="sort-by-section">
+          <div class="sort-by-heading">sort by</div>
+          <label for="sortby1">
+            <input type="radio" id="sortby1" name="radio" />
+            Price : Hight to Low
+          </label>
+          <label for="sortby2">
+            <input type="radio" id="sortby2" name="radio" />
+            Price : Low to High
+          </label>
+        </div>
+      </aside>
+      <div class="product-section">
+        <h2 class="product-section-heading">showing all products</h2>
+        <div class="products">
+            
+          <div class="card card-vertical card-padding">
+            <img src="/assets/batmanBike.jpeg" alt="" class="card-logo" />
+            <p class="card-title">batman bike</p>
+            <div class="card-price">$10</div>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              consequatur!
+            </p>
+            <div class="card-btns">
+              <button class="card-btn card-vertical-btn">add to cart</button>
+              <button class="card-btn">add to wishlist</button>
+            </div>
+          </div>
+          <div class="card card-vertical card-padding">
+            <img src="/assets/batmanBike.jpeg" alt="" class="card-logo" />
+            <p class="card-title">batman bike</p>
+            <div class="card-price">$10</div>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              consequatur!
+            </p>
+            <div class="card-btns">
+              <button class="card-btn card-vertical-btn">add to cart</button>
+              <button class="card-btn">add to wishlist</button>
+            </div>
+          </div>
+          <div class="card card-vertical card-padding">
+            <img src="/assets/batmanBike.jpeg" alt="" class="card-logo" />
+            <p class="card-title">batman bike</p>
+            <div class="card-price">$10</div>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              consequatur!
+            </p>
+            <div class="card-btns">
+              <button class="card-btn card-vertical-btn">add to cart</button>
+              <button class="card-btn">add to wishlist</button>
+            </div>
+          </div>
+          <div class="card card-vertical card-padding">
+            <img src="/assets/batmanBike.jpeg" alt="" class="card-logo" />
+            <p class="card-title">batman bike</p>
+            <div class="card-price">$10</div>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              consequatur!
+            </p>
+            <div class="card-btns">
+              <button class="card-btn card-vertical-btn">add to cart</button>
+              <button class="card-btn">add to wishlist</button>
+            </div>
+          </div>
+          <div class="card card-vertical card-padding">
+            <img src="/assets/batmanBike.jpeg" alt="" class="card-logo" />
+            <p class="card-title">batman bike</p>
+            <div class="card-price">$10</div>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              consequatur!
+            </p>
+            <div class="card-btns">
+              <button class="card-btn card-vertical-btn">add to cart</button>
+              <button class="card-btn">add to wishlist</button>
+            </div>
+          </div>
+          <div class="card card-vertical card-padding">
+            <img src="/assets/batmanBike.jpeg" alt="" class="card-logo" />
+            <p class="card-title">batman bike</p>
+            <div class="card-price">$10</div>
+            <p class="card-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              consequatur!
+            </p>
+            <div class="card-btns">
+              <button class="card-btn card-vertical-btn">add to cart</button>
+              <button class="card-btn">add to wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

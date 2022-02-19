@@ -1,0 +1,85 @@
+:root {
+  --font-medium: 1.4rem;
+  --primary-color: white;
+  --secondary-color: black;
+  --lighgray:#353434;
+}
+.main-section {
+  display: flex;
+}
+.filter-section {
+  margin-top: 1rem;
+  width: 15rem;
+  height: 40rem;
+  border-right: 1px solid var(--secondary-color);
+  background-color: var(--lighgray);
+  padding: 0.4rem 0;
+}
+.filter-btn,
+.filter {
+  display: inline;
+}
+.filter-btn {
+  padding: 0 1rem;
+  font-weight: bold;
+  font-size: var(--font-medium);
+  margin-left: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: none;
+}
+.steps-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.slider-values {
+  color: var(--primary-color);
+}
+.slider {
+  width: 12.3rem;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+.rating-section,
+.category-section,
+.sort-by-section,
+.slider-section {
+  margin: 1rem;
+  text-transform: capitalize;
+}
+.rating-section-heading,
+.category-section-heading,
+.sort-by-heading,
+.filter,
+.slider-section-heading {
+  color: var(--primary-color);
+  font-size: var(--font-medium);
+  text-transform: capitalize;
+  margin: 1rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.product-section {
+  width: 70vw;
+}
+.card-padding {
+  margin: 1rem;
+}
+.product-section-heading {
+  text-transform: capitalize;
+  margin: 1rem 3rem;
+}
+.products {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
