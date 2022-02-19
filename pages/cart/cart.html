@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="cart page" />
+    <meta name="author" content="aryan sharma" />
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="https://gothamui.netlify.app/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0dbbe70cac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>cart</title>
+  </head>
+
+  <body>
+    <nav class="nav-menu">
+      <h1 class="nav-menu-logo">
+        <a href="#" class="text-decorations text-white">gothammerce</a>
+      </h1>
+      <div class="search">
+        <i class="fas fa-search search-background"></i>
+        <input type="text" placeholder="search products" class="search-bar" />
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="menu-items">
+            <a href="#" class="text-decorations text-white">sign up</a>
+          </li>
+          <li class="menu-items">
+            <a href="#" class="text-decorations text-white">login</a>
+          </li>
+          <li class="menu-items fas-icons">
+            <a href="#" class="text-decorations text-white">
+              <i class="fas fa-heart"></i>
+            </a>
+            <div class="count-items">0</div>
+          </li>
+          <li class="menu-items fas-icons">
+            <a href="#" class="text-decorations text-white"
+              ><i class="fas fa-shopping-cart"></i
+            ></a>
+            <div class="count-items">0</div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="cart-products">
+        <h2 class="cart-products-heading">MY CART(2)</h2>
+        <div class="card-and-price-details">
+        <div class="cart-card">
+          <img src="/assets/batmanBike.jpeg" alt="" class="cart-card-image" />
+          <div class="cart-card-details">
+            <p class="cart-card-details-head">Batman Bike</p>
+            <div class="cart-card-details-price">
+              <div class="cart-card-details-price-discount">$2000</div>
+              <div class="cart-card-details-price-real">$3000</div>
+            </div>
+            <div class="cart-card-offer">50% off</div>
+            <div class="cart-card-quantity">
+              <div class="cart-card-quantity-head">Quantity:</div>
+              <div class="cart-card-quantity-minus">-</div>
+              <div class="cart-card-quantity-value">1</div>
+              <div class="cart-card-quantity-plus">+</div>
+            </div>
+            <div class="cart-card-buttons">
+              <button class="cart-card-buttons-remove">remove from cart</button>
+              <button class="cart-card-buttons-move">move to wishlist</button>
+            </div>
+          </div>
+        </div>
+        <div class="price-details">
+            <div class="price-details-heading">
+                price details
+            </div>
+            <div class="price-details-desc">
+                <div class="price-details-desc-desc">price (2 items)</div>
+                <div class="price-details-desc-price">$199</div>
+            </div>
+            <div class="price-details-desc">
+                <div class="price-details-desc-desc">discount</div>
+                <div class="price-details-desc-price">-$99</div>
+            </div>
+            <div class="price-details-desc">
+                <div class="price-details-desc-desc">delivery charge</div>
+                <div class="price-details-desc-price">
+                    $50
+                </div>
+            </div>
+           <div class="price-details-amount price-details-desc">
+                <div class="price">total amount</div>
+                <div class="price">
+                    $150
+                </div>
+           </div>
+           <div class="price-details-saving">
+               you will save $49 on this order
+           </div>
+           <div class="price-details-button">
+              <button class="price-details-btn">place order</button>
+           </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
