@@ -5,6 +5,9 @@
   --lightgray:#353434;
   --gray: gray;
 }
+.container-btn{
+    color: var(--secondary-color);
+}
 .image-text {
   margin-top: 1rem;
   background-color: var(--secondary-color);
