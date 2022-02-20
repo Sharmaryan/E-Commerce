@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="login page" />
+    <meta name="author" content="aryan sharma" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="https://gothamui.netlify.app/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0dbbe70cac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>login</title>
+  </head>
+
+  <body>
+    <nav class="nav-menu">
+      <h1 class="nav-menu-logo">
+        <a href="#" class="text-decorations text-white">gothammerce</a>
+      </h1>
+      <div class="search">
+        <i class="fas fa-search search-background"></i>
+        <input type="text" placeholder="search products" class="search-bar" />
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="menu-items">
+            <a href="#" class="text-decorations text-white">sign up</a>
+          </li>
+          <li class="menu-items">
+            <a href="#" class="text-decorations text-white">login</a>
+          </li>
+          <li class="menu-items fas-icons">
+            <a href="#" class="text-decorations text-white">
+              <i class="fas fa-heart"></i>
+            </a>
+            <div class="count-items">0</div>
+          </li>
+          <li class="menu-items fas-icons">
+            <a href="#" class="text-decorations text-white"
+              ><i class="fas fa-shopping-cart"></i
+            ></a>
+            <div class="count-items">0</div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="login-section">
+      <div class="login-form">
+        <h2 class="login-form-title">login</h2>
+        <form>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="xyz@gmail.com"
+            class="input"
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="*********"
+            class="input"
+          />
+
+          <div class="remember-forgot">
+            <label for="remember">
+              <input name="checkbox" id="remember" type="checkbox" />
+              Remember Me
+            </label>
+            <a href="#" class="text-decorations forgot-pass"
+              >forgot your password?</a
+            >
+          </div>
+          <button class="login-btn">login</button>
+          <div class="new-account">
+            <a href="#" class="text-decorations account">create new account ></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

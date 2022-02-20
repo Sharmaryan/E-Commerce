@@ -1,0 +1,53 @@
+:root{
+    --primary-color: white;;
+    --secondary-color: black;
+    --gray: gray;
+}
+
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+}
+.login-form{
+    width: 22rem;
+    border: 3px solid var(--secondary-color);
+    padding: 1rem;
+    box-shadow: 5px 5px var(--gray);
+    text-transform: capitalize;
+}
+.login-form-title{
+    text-align: center;
+
+}
+.input{
+    padding: 8px 0;
+}
+#email, #password{
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    border: 2px solid var(--gray);
+}
+.forgot-pass{
+    padding-left: 1rem;
+    color: var(--gray);
+}
+.login-btn{
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    padding: 6px 0;
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.new-account{
+    text-align: center;
+}
+ .account{
+     color: var(--gray);
+ } 
