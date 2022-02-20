@@ -1,6 +1,5 @@
 # E-Commerce
-Gotham Store is an E-commerce Store made with HTML and CSS, I have used my own (component library)(https://gothamui.netlify.app/) in it to build some parts.
-# Gotham-UI
+Gotham Store is an E-commerce Store made with HTML and CSS, I have used my own [component library](https://gothamui.netlify.app/) in it to build some parts.
 
 ## Pages
 
