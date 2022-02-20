@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="signup page" />
+    <meta name="author" content="aryan sharma" />
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="https://gothamui.netlify.app/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0dbbe70cac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>signup</title>
+  </head>
+
+  <body>
+    <nav class="nav-menu">
+      <h1 class="nav-menu-logo">
+        <a href="#" class="text-decorations text-white">gothammerce</a>
+      </h1>
+      <div class="search">
+        <i class="fas fa-search search-background"></i>
+        <input type="text" placeholder="search products" class="search-bar" />
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="menu-items">
+            <a href="#" class="text-decorations text-white">sign up</a>
+          </li>
+          <li class="menu-items">
+            <a href="#" class="text-decorations text-white">login</a>
+          </li>
+          <li class="menu-items fas-icons">
+            <a href="#" class="text-decorations text-white">
+              <i class="fas fa-heart"></i>
+            </a>
+            <div class="count-items">0</div>
+          </li>
+          <li class="menu-items fas-icons">
+            <a href="#" class="text-decorations text-white"
+              ><i class="fas fa-shopping-cart"></i
+            ></a>
+            <div class="count-items">0</div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="signup-section">
+      <div class="signup-form">
+        <h2 class="signup-form-title">signup</h2>
+        <form>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="xyz@gmail.com"
+            class="input"
+          />
+          <label for="fname">first name</label>
+          <input
+            type="text"
+            id="fname"
+            placeholder="enter your first name"
+            class="input"
+          />
+          <label for="lname">last name</label>
+          <input
+            type="text"
+            id="lname"
+            placeholder="enter your last name"
+            class="input"
+          />
+            <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="*********"
+            class="input"
+          />
+          <label for="cpass">confirm password</label>
+          <input
+            type="password"
+            id="cpass"
+             placeholder="*********"
+            class="input"
+          />
+        
+
+          <div class="t-and-c">
+            <label for="t&c">
+              <input name="t&c" id="t&c" type="checkbox" />
+             I accept terms and condition
+            </label>
+          </div>
+          <button class="signup-btn">create new account</button>
+          <div class="have-account">
+            <a href="#" class="text-decorations account"
+              >already have an account ></a
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
