@@ -1,3 +1,9 @@
+:root{
+    --primary-color: white;;
+    --secondary-color: black;
+    --gray: gray;
+}
+
 .login-section{
     display: flex;
     justify-content: center;
@@ -6,9 +12,9 @@
 }
 .login-form{
     width: 22rem;
-    border: 3px solid black;
+    border: 3px solid var(--secondary-color);
     padding: 1rem;
-    box-shadow: 5px 5px gray;
+    box-shadow: 5px 5px var(--gray);
     text-transform: capitalize;
 }
 .login-form-title{
@@ -22,20 +28,20 @@
     display: block;
     margin: 1rem 0;
     width: 100%;
-    border: 2px solid gray;
+    border: 2px solid var(--gray);
 }
 .forgot-pass{
     padding-left: 1rem;
-    color: gray;
+    color: var(--gray);
 }
 .login-btn{
     display: block;
     margin: 1rem 0;
     width: 100%;
     padding: 6px 0;
-    background-color: black;
+    background-color: var(--secondary-color);
     border: none;
-    color: white;
+    color: var(--primary-color);
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -43,5 +49,5 @@
     text-align: center;
 }
  .account{
-     color: gray;
+     color: var(--gray);
  } 
