@@ -1,0 +1,47 @@
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+}
+.login-form{
+    width: 22rem;
+    border: 3px solid black;
+    padding: 1rem;
+    box-shadow: 5px 5px gray;
+    text-transform: capitalize;
+}
+.login-form-title{
+    text-align: center;
+
+}
+.input{
+    padding: 8px 0;
+}
+#email, #password{
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    border: 2px solid gray;
+}
+.forgot-pass{
+    padding-left: 1rem;
+    color: gray;
+}
+.login-btn{
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    padding: 6px 0;
+    background-color: black;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.new-account{
+    text-align: center;
+}
+ .account{
+     color: gray;
+ } 
