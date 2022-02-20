@@ -1,9 +1,4 @@
-:root{
-    --primary-color: white;;
-    --secondary-color: black;
-    --gray: gray;
-}
-
+@import url(/style.css);
 .login-section{
     display: flex;
     justify-content: center;

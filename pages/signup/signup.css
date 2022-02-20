@@ -1,8 +1,4 @@
-:root{
-    --primary-color: white;
-    --secondary-color: black;
-    --gray: gray;
-}
+@import url(/style.css);
 .signup-section{
     display: flex;
     justify-content: center;
