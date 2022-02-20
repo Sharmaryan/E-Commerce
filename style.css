@@ -1,6 +1,8 @@
 :root {
+  --font-medium: 1.4rem;
   --primary-color: white;
   --secondary-color: black;
+  --lightgray:#353434;
   --gray: gray;
 }
 .image-text {

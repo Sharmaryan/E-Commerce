@@ -1,7 +1,4 @@
-:root{
-    --secondary-color: black;
-    --gray: gray;
-}
+@import url(/style.css);
 .card-and-price-details {
   display: flex;
   justify-content: center;
