@@ -1,7 +1,7 @@
 :root {
   --font-medium: 1.4rem;
   --primary-color: white;
-  --secondary-color: black;
+  --secondary-color: royalblue;
   --lightgray:#353434;
   --gray: gray;
 }
@@ -34,6 +34,7 @@
   text-align: center;
   padding: 1rem 0;
   text-transform: capitalize;
+  color: var(--secondary-color);
 }
 .categories, .most-wishlisted {
   display: flex;
