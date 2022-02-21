@@ -8,12 +8,13 @@
 .wishlist-heading{
     margin-top: 1rem;
     text-align: center;
+    color: var(--secondary-color);
 }
 .products{
     border: 3px solid var(--secondary-color);
     width: 14rem;
     text-align: center;
-    box-shadow: 3px 3px var(--gray);
+    box-shadow: 3px 3px var(--primary-color);
     margin: 1rem;
     position: relative;
 }

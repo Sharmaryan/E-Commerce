@@ -14,7 +14,7 @@
 }
 .signup-form-title{
     text-align: center;
-
+    color: var(--secondary-color);
 }
 .input{
     padding: 8px 0;

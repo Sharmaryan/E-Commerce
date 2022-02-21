@@ -7,7 +7,7 @@
   width: 15rem;
   height: 40rem;
   border-right: 1px solid var(--secondary-color);
-  background-color: var(--lightgray);
+  background-color: var(--secondary-color);
   padding: 0.4rem 0;
 }
 .filter-btn,
@@ -21,7 +21,6 @@
   margin-left: 1rem;
   text-transform: capitalize;
   cursor: pointer;
-  border: none;
 }
 .steps-list {
   display: flex;
@@ -71,6 +70,7 @@ label {
 .product-section-heading {
   text-transform: capitalize;
   margin: 1rem 3rem;
+  color: var(--secondary-color);
 }
 .products {
   padding: 1rem;
